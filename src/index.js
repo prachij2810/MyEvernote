@@ -8,14 +8,14 @@ const firebase= require('firebase');
 require('firebase/firestore');
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDzOkffsk_GT1NM7AHPNVNQ1yzPNKveJZc",
-  authDomain: "evernote-clone-8840f.firebaseapp.com",
-  databaseURL: "https://evernote-clone-8840f.firebaseio.com",
-  projectId: "evernote-clone-8840f",
-  storageBucket: "evernote-clone-8840f.appspot.com",
-  messagingSenderId: "634094383649",
-  appId: "1:634094383649:web:395e88120d3c0d7aa6e960",
-  measurementId: "G-9SZ3V76ZTC"
+  apiKey: "YOUR_KEY",
+  authDomain: "YOUR_DOMAIN",
+  databaseURL: "YOUR_URL",
+  projectId: "YOUR_ID",
+  storageBucket: "YOUR_LINK",
+  messagingSenderId: "YOUR_ID",
+  appId: "YOUR_ID",
+  measurementId: "YOUR_ID"
 };
 firebase.initializeApp(firebaseConfig);
 // firebase.analytics();
